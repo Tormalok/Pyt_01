@@ -1,10 +1,14 @@
+import os
+from dotenv import load_dotenv
 import requests
 import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
 
+load_dotenv()
+
 # Your Mapbox API key
-mapbox_api_key = 'pk.eyJ1IjoidG9ybWFsb2siLCJhIjoiY2x6bDh2YzUyMDA2bDJrcXd1OWtoZGduNiJ9.PC_dfeirD6xIzI_TOy4LtQ'
+mapbox_api_key = os.getenv('MAPBOX_API_KEY')
 
 # List of coordinates of landmarks (latitude, longitude) and their names
 landmarks = [

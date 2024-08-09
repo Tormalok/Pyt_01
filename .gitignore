@@ -17,3 +17,6 @@ __pycache__/
 .DS_Store
 *.sublime-project
 *.sublime-workspace
+
+# Environment variables
+.env
