@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+*.bak
+
+# Miscellaneous
+.DS_Store
+*.sublime-project
+*.sublime-workspace

@@ -1,0 +1,45 @@
+Welcome to the Route Finder!
+1. Find shortest path automatically
+2. Find shortest path with specific waypoints
+3. Quit
+Choose an option (1, 2, or 3): 1
+
+Landmarks:
+Node 0: Balme Library
+Node 1: Department of Physics
+Node 2: Department of Computer Science
+Node 3: Great Hall
+Node 4: University Square
+Node 5: Commonwealth Hall
+Node 6: Legon Hall
+Node 7: Mensah Sarbah Hall
+Node 8: Nkrumah Hall
+Node 9: University Hospital
+Node 10: Institute of African Studies
+Node 11: Noguchi Memorial Institute for Medical Research
+Node 12: School of Public Health
+Node 13: Department of Geography and Resource Development
+Node 14: Department of Psychology
+Node 15: Department of Sociology
+Node 16: Department of Political Science
+Node 17: Sports Fields
+Node 18: University Guest Centre
+Node 19: UG Sports Stadium
+Node 20: Botanical Gardens
+Node 21: Athletic Oval
+Node 22: Legon Pool Side
+Node 23: University of Ghana Business School
+
+Enter the number for the start location: 3
+Enter the number for the end location: 19
+Select the mode of travel:
+1: Driving
+2: Walking
+Enter the number for your preferred mode of travel: 1
+
+The shortest path from Node 3 to Node 19 is:
+Node 3: Great Hall
+Node 21: Athletic Oval
+Node 19: UG Sports Stadium
+Total distance: 0.63 km
+Total travel time: 2 min(s)
